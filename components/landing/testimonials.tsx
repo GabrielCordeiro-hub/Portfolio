@@ -16,7 +16,7 @@ const experience = [
     type: "work",
   },
   {
-    title: "Full Stack Training Courses",
+    title: "Front-end Training Courses",
     company: "Alura",
     period: "2023 - 2026",
     description: "Completed comprehensive training in JavaScript, TypeScript, HTML5, CSS3, React, Next.js, Tailwind CSS, and Bootstrap.",

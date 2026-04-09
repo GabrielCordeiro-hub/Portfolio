@@ -2,33 +2,37 @@
 
 const skills = [
   {
-    category: "Languages & Markup",
+    category: "Languages & Runtime",
     color: "from-emerald-500 to-teal-400",
-    items: ["JavaScript", "TypeScript", "HTML5", "CSS3"],
+    items: ["JavaScript", "TypeScript", "Node.js", "HTML5", "CSS3"],
   },
   {
-    category: "Frameworks & Libraries",
+    category: "Frameworks & APIs",
     color: "from-orange-500 to-amber-400",
-    items: ["React", "Next.js", "Tailwind CSS", "Bootstrap"],
+    items: ["React", "Next.js", "REST APIs", "Tailwind CSS", "Bootstrap"],
   },
   {
     category: "Tools & Workflow",
     color: "from-rose-500 to-pink-400",
-    items: ["Git", "GitHub", "Figma", "VS Code", "Responsive Design"],
+    items: ["Git", "GitHub", "Figma", "VS Code", "Responsive Design", "Performance Optimization"],
   },
 ]
 
 const techBadges = [
   { name: "JavaScript", bg: "bg-yellow-400/10 text-yellow-600 dark:text-yellow-400 border-yellow-400/20" },
   { name: "TypeScript", bg: "bg-blue-500/10 text-blue-700 dark:text-blue-400 border-blue-500/20" },
-  { name: "HTML5", bg: "bg-orange-400/10 text-orange-600 dark:text-orange-400 border-orange-400/20" },
-  { name: "CSS3", bg: "bg-blue-400/10 text-blue-600 dark:text-blue-400 border-blue-400/20" },
+  { name: "Node.js", bg: "bg-green-500/10 text-green-700 dark:text-green-500 border-green-500/20" },
   { name: "React", bg: "bg-cyan-400/10 text-cyan-600 dark:text-cyan-400 border-cyan-400/20" },
   { name: "Next.js", bg: "bg-foreground/10 text-foreground border-foreground/20" },
+  { name: "REST APIs", bg: "bg-indigo-400/10 text-indigo-600 dark:text-indigo-400 border-indigo-400/20" },
   { name: "Tailwind CSS", bg: "bg-teal-400/10 text-teal-600 dark:text-teal-400 border-teal-400/20" },
   { name: "Bootstrap", bg: "bg-violet-400/10 text-violet-600 dark:text-violet-400 border-violet-400/20" },
+  { name: "HTML5", bg: "bg-orange-400/10 text-orange-600 dark:text-orange-400 border-orange-400/20" },
+  { name: "CSS3", bg: "bg-blue-400/10 text-blue-600 dark:text-blue-400 border-blue-400/20" },
   { name: "Figma", bg: "bg-pink-400/10 text-pink-600 dark:text-pink-400 border-pink-400/20" },
   { name: "Git", bg: "bg-red-400/10 text-red-600 dark:text-red-400 border-red-400/20" },
+  { name: "Responsive Design", bg: "bg-rose-400/10 text-rose-600 dark:text-rose-400 border-rose-400/20" },
+  { name: "Performance Optimization", bg: "bg-emerald-400/10 text-emerald-600 dark:text-emerald-400 border-emerald-400/20" },
 ]
 
 export function Services() {

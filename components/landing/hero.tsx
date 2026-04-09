@@ -52,9 +52,6 @@ export function Hero() {
             <a href="https://www.linkedin.com/in/gabriel-cordeiro-9b8993335/" target="_blank" className="text-muted-foreground hover:text-cw-blue transition-colors">
               <Linkedin className="h-5 w-5" />
             </a>
-            <a href="mailto:cordeirogabriel090@gmail.com" className="text-muted-foreground hover:text-cw-blue transition-colors">
-              <Mail className="h-5 w-5" />
-            </a>
             <div className="h-4 w-px bg-border mx-2" />
             <span className="text-sm font-medium text-muted-foreground flex items-center gap-1.5">
               <span className="h-2 w-2 rounded-full bg-green-500 animate-pulse" />

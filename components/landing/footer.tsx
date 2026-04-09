@@ -12,7 +12,6 @@ const navLinks = [
 const socials = [
   { icon: Github, href: "https://github.com/GabrielCordeiro-hub", label: "GitHub" },
   { icon: Linkedin, href: "https://www.linkedin.com/in/gabriel-cordeiro-9b8993335/", label: "LinkedIn" },
-  { icon: Mail, href: "mailto:cordeirogabriel090@gmail.com", label: "Email" },
 ]
 
 export function Footer() {
@@ -41,8 +40,8 @@ export function Footer() {
                   key={s.label}
                   href={s.href}
                   aria-label={s.label}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  target={s.href.startsWith("http") ? "_blank" : undefined}
+                  rel={s.href.startsWith("http") ? "noopener noreferrer" : undefined}
                   className="flex h-10 w-10 items-center justify-center rounded-xl bg-muted border border-border transition-all hover:bg-cw-blue hover:text-white dark:bg-white/5 dark:border-transparent dark:hover:bg-primary/20 dark:hover:text-primary"
                 >
                   <s.icon className="h-5 w-5" />

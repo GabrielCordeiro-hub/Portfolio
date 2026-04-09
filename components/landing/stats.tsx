@@ -8,7 +8,7 @@ const stats = [
   },
   {
     icon: Layers,
-    value: "8+",
+    value: "14+",
     label: "Technologies",
   },
   {

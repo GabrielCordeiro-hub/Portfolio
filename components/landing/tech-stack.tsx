@@ -1,10 +1,12 @@
-import { Blocks, FileCode2, LayoutTemplate, Palette } from "lucide-react"
+import { Blocks, FileCode2, LayoutTemplate, Palette, Network, Box } from "lucide-react"
 
 const technologies = [
     { name: "Next.js", icon: LayoutTemplate, color: "text-neutral-900 dark:text-neutral-100" },
     { name: "React", icon: Blocks, color: "text-cw-blue" },
     { name: "Tailwind CSS", icon: Palette, color: "text-cyan-500" },
     { name: "TypeScript", icon: FileCode2, color: "text-blue-600" },
+    { name: "REST APIs", icon: Network, color: "text-indigo-500" },
+    { name: "Bootstrap", icon: Box, color: "text-violet-500" },
 ]
 
 export function TechStack() {
