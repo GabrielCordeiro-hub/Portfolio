@@ -12,7 +12,7 @@ const experience = [
     title: "Freelance Front-end Developer",
     company: "Personal Projects",
     period: "2026 - Present",
-    description: "Development of landing pages, dashboards, and institutional sites using React, Next.js, and Tailwind CSS.",
+    description: "Creation and continuous evolution of digital experiences, focusing on delivering high-quality, responsive, and user-centric web solutions.",
     type: "work",
   },
   {
